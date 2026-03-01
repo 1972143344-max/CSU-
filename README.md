@@ -1,4 +1,3 @@
-<img width="758" height="717" alt="image" src="https://github.com/user-attachments/assets/daf61166-6415-4654-8006-472e92017645" /># 空教室查询工具
 
 一个基于 `Python + Tkinter + pandas` 的桌面小工具，用于从学校课表 Excel 中快速查询指定时间段的空教室。
 
