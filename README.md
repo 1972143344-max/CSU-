@@ -1,9 +1,9 @@
-# 空教室查询工具
+<img width="758" height="717" alt="image" src="https://github.com/user-attachments/assets/daf61166-6415-4654-8006-472e92017645" /># 空教室查询工具
 
 一个基于 `Python + Tkinter + pandas` 的桌面小工具，用于从学校课表 Excel 中快速查询指定时间段的空教室。
 
-这个项目适合放在简历中展示：
-- 有实际业务场景（教学楼空教室查询）
+这个项目的基本特点：
+- 有实际应用场景（教学楼空教室查询）
 - 有完整桌面 GUI 交互
 - 有数据解析、规则匹配、结果导出流程
 
@@ -54,7 +54,7 @@ python run.py
 pyinstaller free_classroom.spec
 ```
 
-## 适合简历的项目亮点（可直接摘用）
+## 项目亮点
 
 - 独立开发桌面工具，完成“课表解析-规则过滤-结果导出”全流程。
 - 设计周次范围与单双周匹配逻辑，提升空教室查询准确性。
@@ -63,18 +63,10 @@ pyinstaller free_classroom.spec
 
 ## 演示截图
 
-建议在仓库中新增 `docs/` 目录并放入截图，然后在这里引用：
+<img width="758" height="717" alt="image" src="https://github.com/user-attachments/assets/0dafc31c-432f-4ecc-a03a-ce095499eeaf" />
 
-```markdown
-![主界面](docs/main-ui.png)
-![查询结果](docs/query-result.png)
-```
 
 ## 注意事项
 
 - 请勿上传包含隐私信息的真实课表数据（可做脱敏后再提交）。
 - 若 `.xls` 文件读取失败，请确认已安装 `xlrd` 且版本兼容。
-
-## License
-
-如需开源发布，建议补充 `MIT` License（`LICENSE` 文件）。
