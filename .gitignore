@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Build / package artifacts
+build/
+build1/
+dist/
+dist1/
+*.egg-info/
+pip-wheel-metadata/
+
+# PyInstaller
+*.spec.bak
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime / logs
+*.log
+*.tmp
+
+# Local data exports (optional: keep if you want to version them)
+**/b_empty_classroom/
+
+# Excel raw data (optional: keep if you want to version sample files)
+*.xlsx
+
+# Executables
+*.exe
